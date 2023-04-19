@@ -1,0 +1,11 @@
+.header {
+  margin-top: 3.5rem;
+  border-top: 1px solid var(--dark-color);
+  border-bottom: 1px solid var(--dark-color);
+  padding: 1rem;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+}
