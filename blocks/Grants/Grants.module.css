@@ -1,0 +1,75 @@
+.container {
+  padding: 10vw var(--margin-x) 6vw;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6vw;
+}
+
+.text p {
+  max-width: 23em;
+  align-self: end;
+  padding-bottom: 1.5vw;
+}
+
+.previews {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.previews div {
+  aspect-ratio: 1;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  gap: 2rem;
+}
+
+.image {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+}
+
+.moderator {
+  background-color: #dee2e3;
+  --accent: #fc8e28;
+  --secondary: white;
+}
+
+.fundraising {
+  background-color: #353534;
+  --accent: #f7f6f1;
+  --secondary: var(--dark-color);
+}
+
+.fundraising .image {
+  padding: 0 1rem;
+}
+
+.title {
+  color: var(--accent);
+}
+
+.previews h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--accent);
+}
+
+.previews *:not(img) {
+  z-index: 1;
+}
+
+.previews button {
+  background-color: var(--accent);
+  color: var(--secondary);
+}

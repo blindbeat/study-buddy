@@ -1,8 +1,13 @@
 import { ComponentPropsWithoutRef } from "react";
 import styles from "./Button.module.css";
-const Button = ({ children, ...rest }: ComponentPropsWithoutRef<"button">) => {
+import classNames from "classnames";
+const Button = ({
+  children,
+  className,
+  ...rest
+}: ComponentPropsWithoutRef<"button">) => {
   return (
-    <button {...rest} className={styles.button}>
+    <button {...rest} className={classNames(styles.button, className)}>
       {children}
     </button>
   );

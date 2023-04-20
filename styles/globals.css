@@ -5,6 +5,7 @@
   color: var(--dark-color);
   --light-color: #f7f6f1;
   --dark-color: #353534;
+  --margin-x: 12.5vw;
   font-family: sans-serif;
 }
 
@@ -37,4 +38,10 @@ h3,
 h4,
 h5 {
   font-weight: 700;
+}
+
+h1,
+h2 {
+  font-size: 6.5vw;
+  text-transform: uppercase;
 }
