@@ -1,9 +1,12 @@
+@import "normalize.css";
+
 :root {
   background: var(--light-color);
   color: var(--dark-color);
   --light-color: #f7f6f1;
   --dark-color: #353534;
   font-family: sans-serif;
+  line-height: 130%;
 }
 
 * {
@@ -22,4 +25,9 @@ body {
   html {
     color-scheme: dark;
   }
+}
+
+button {
+  border: none;
+  cursor: pointer;
 }
