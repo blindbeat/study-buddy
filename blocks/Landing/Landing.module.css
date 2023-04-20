@@ -1,24 +1,70 @@
 .container {
   min-height: calc(100vh - 7rem);
-  padding: 5.5vw 12.5vw 5vh;
+  padding: 4vw 12.5vw;
   border-bottom: 1px solid var(--dark-color);
+  display: grid;
+  grid-template-rows: 1fr auto;
+  flex-direction: column;
+  align-items: center;
 }
 
 .heading {
+  margin: 0;
+  padding-bottom: 5vw;
+  font-size: 6vw;
   text-transform: uppercase;
-  display: flex;
-  gap: 2vw;
-  flex-direction: column;
-  margin-bottom: 5vw;
-}
-
-.heading * {
-  width: 50vw;
-  height: auto;
+  text-align: justify;
+  width: 60%;
+  height: min-content;
+  line-height: 100%;
+  letter-spacing: 0.25rem;
+  font-weight: 600;
 }
 
 .secondLine {
-  margin-left: 12vw;
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.secondLine span {
+  line-height: 100%;
+  flex-grow: 1;
+  letter-spacing: 0.45rem;
+}
+
+.secondLine img {
+  object-fit: cover;
+  border-radius: 1rem;
+  height: 4.5vw;
+  aspect-ratio: 2/1;
+  width: auto;
+  /*width: 9vw;*/
+}
+
+.thirdLine {
+  line-height: 100%;
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+  letter-spacing: 0rem;
+}
+
+.flag {
+  display: grid;
+  flex-shrink: 0;
+  grid-template-rows: repeat(2, 1fr);
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 3.5rem;
+  height: 5vw;
+}
+
+.flag div:first-child {
+  background-color: #338af3;
+}
+.flag div:last-child {
+  background-color: #ffda45;
 }
 
 .cta {

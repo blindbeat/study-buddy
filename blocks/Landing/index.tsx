@@ -1,20 +1,27 @@
 import styles from "./Landing.module.css";
-import educational from "@/public/landing/educational.svg";
-import initiative from "@/public/landing/initiative.svg";
-import forUkraine from "@/public/landing/forUkraine.svg";
+import landingImage from "assets/images/landingImage.jpg";
 import Image from "next/image";
 import Button from "@/components/Button";
 const Landing = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.heading}>
-        <Image src={educational} alt={"educational"} />
-        <Image
-          src={initiative}
-          alt={"initiative"}
-          className={styles.secondLine}
-        />
-        <Image src={forUkraine} alt={"for Ukraine"} />
+        educational
+        <div className={styles.secondLine}>
+          <Image
+            src={landingImage}
+            alt={"group of people look on whiteboard"}
+            className={styles.image}
+          />
+          <span>initiative</span>
+        </div>
+        <div className={styles.thirdLine}>
+          for{" "}
+          <div className={styles.flag}>
+            <div /> <div />
+          </div>{" "}
+          Ukraine
+        </div>
       </h1>
       <div className={styles.cta}>
         <p>
