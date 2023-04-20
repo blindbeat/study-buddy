@@ -5,6 +5,7 @@ import Header from "@/blocks/Header";
 import Landing from "@/blocks/Landing";
 import classNames from "classnames";
 import Explanation from "@/blocks/Explanation";
+import Steps from "@/blocks/Steps";
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600", "700"] });
 
@@ -19,6 +20,7 @@ export default function Home() {
         <Header />
         <Landing />
         <Explanation />
+        <Steps />
       </main>
     </>
   );

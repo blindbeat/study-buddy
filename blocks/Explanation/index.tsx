@@ -13,31 +13,48 @@ const blockEntries: BlockTexts[] = [
   },
   {
     heading: "Choose the field of the project",
-    text: "Decisions should be from students.Teachers or school administration have to organize this process - gather student representatives and conduct a survey of interests.",
+    text: "Decisions should be from students. Teachers or school administration have to organize this process - gather student representatives and conduct a survey of interests.",
   },
   {
-    heading: "Moderator recruitment",
-    text: "Decisions should be from students.Teachers or school administration have to organize this process - gather student representatives and conduct a survey of interests.",
+    heading: (
+      <>
+        <u>Moderator</u> recruitment
+      </>
+    ),
+    text: "Recruitment is provided in two ways, for experts who are invited by organisers and for applicants who want to become a moderator.",
   },
   {
-    heading: "Organize groups of 2 teachers and 14 students each group",
-    text: "Decisions should be from students.Teachers or school administration have to organize this process - gather student representatives and conduct a survey of interests.",
+    heading: (
+      <>
+        <u>Organize groups</u> of 2 teachers and 14 students each group
+      </>
+    ),
+    text: "Students (13-17 y.o.) apply based on their interest to the settled field of a project by motivation letter, teachers who want to participate apply by interview with a moderator.",
   },
   {
     heading: "Create a schedule for working group",
-    text: "Decisions should be from students.Teachers or school administration have to organize this process - gather student representatives and conduct a survey of interests.",
+    text: "The creation of the work schedule should take place within the group in coordination with the personal wishes of the participants, the moderator and the school administration (so that they can provide the space for work).",
   },
   {
-    heading: "Regular meetings",
-    text: "Decisions should be from students.Teachers or school administration have to organize this process - gather student representatives and conduct a survey of interests.",
+    heading: (
+      <>
+        Regular <u>meetings</u>
+      </>
+    ),
+    text: "Program includes two parts - educational and practical, so participants will gain cool new knowledges. Also each member by confirming participation commits to be present on the 80% of meetings.",
   },
   {
     heading: "Presentation",
-    text: "Presentation of the project to whole school community in a friendly atmosphere",
+    text: (
+      <>
+        Presentation of the project to whole school community in a{" "}
+        <b>friendly atmosphere</b>
+      </>
+    ),
   },
   {
     heading: "Project implementation",
-    text: "Presentation of the project to whole school community in a friendly atmosphere",
+    text: "Thanks to a well-developed plan, fundraising and teamwork, we are confident that in the end each group of participants will be able to bring their project to life!",
   },
 ];
 const Explanation = () => {

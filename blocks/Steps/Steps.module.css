@@ -1,0 +1,13 @@
+.block {
+  border-top: 1px solid var(--dark-color);
+  display: grid;
+  grid-template-columns: repeat(2, 20%);
+  justify-content: space-between;
+  gap: 8vw;
+  padding: 1.5rem 12.5vw;
+}
+
+.stepTitle {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
