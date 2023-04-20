@@ -11,13 +11,13 @@
 .heading {
   margin: 0;
   padding-bottom: 5vw;
-  font-size: 6vw;
+  font-size: 7vw;
   text-transform: uppercase;
   text-align: justify;
   width: 60%;
   height: min-content;
   line-height: 100%;
-  letter-spacing: 0.25rem;
+  letter-spacing: 0.15rem;
   font-weight: 600;
 }
 
@@ -25,12 +25,12 @@
   display: flex;
   align-items: center;
   gap: 2vw;
+  letter-spacing: 0.62rem;
 }
 
 .secondLine span {
   line-height: 100%;
   flex-grow: 1;
-  letter-spacing: 0.45rem;
 }
 
 .secondLine img {
