@@ -1,0 +1,23 @@
+.heading {
+  font-size: 9vw;
+  line-height: 110%;
+  margin: 10vw 12vw 6vw;
+  text-transform: uppercase;
+}
+
+.secondLine {
+  display: inline;
+  margin-left: 1em;
+}
+
+.block {
+  border-top: 1px solid var(--dark-color);
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  gap: 10rem;
+  padding: 1.5rem 12.5vw;
+}
+
+.block h4 {
+  font-size: 1.5em;
+}

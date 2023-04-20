@@ -4,6 +4,7 @@ import styles from "@/styles/Home.module.css";
 import Header from "@/blocks/Header";
 import Landing from "@/blocks/Landing";
 import classNames from "classnames";
+import Explanation from "@/blocks/Explanation";
 
 const jetBrainsMono = JetBrains_Mono({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export default function Home() {
       <main className={classNames(styles.main, jetBrainsMono.className)}>
         <Header />
         <Landing />
+        <Explanation />
       </main>
     </>
   );
