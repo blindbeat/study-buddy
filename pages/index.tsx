@@ -8,6 +8,7 @@ import Explanation from "@/blocks/Explanation";
 import Steps from "@/blocks/Steps";
 import Grants from "@/blocks/Grants";
 import Resources from "@/blocks/Resources";
+import Partners from "@/blocks/Partners";
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600", "700"] });
 
@@ -25,6 +26,7 @@ export default function Home() {
         <Steps />
         <Grants />
         <Resources />
+        <Partners />
       </main>
     </>
   );

@@ -6,6 +6,7 @@ import Image, { StaticImageData } from "next/image";
 import hundred from "assets/images/websitePreviews/hundred.png";
 import prosvit from "assets/images/websitePreviews/prosvit.png";
 import llplatform from "assets/images/websitePreviews/llp.png";
+import teor from "assets/images/websitePreviews/teor.png";
 import { Navigation } from "swiper";
 
 interface Slide {
@@ -18,32 +19,42 @@ const slides: Slide[] = [
   {
     title: "Hundred",
     image: hundred,
-    link: "https://www.ua.splot.institute/",
+    link: "https://hundred.org/en",
   },
   {
     title: "Prosvitcenter",
     image: prosvit,
-    link: "https://www.ua.splot.institute/",
+    link: "http://prosvitcenter.org/",
   },
   {
     title: "LLplatform",
     image: llplatform,
-    link: "https://www.ua.splot.institute/",
+    link: "https://lllplatform.eu/",
   },
   {
-    title: "Prosvitcenter",
-    image: prosvit,
-    link: "https://www.ua.splot.institute/",
+    title: "zwolnienizteorii",
+    image: teor,
+    link: "https://zwolnienizteorii.pl/",
   },
   {
     title: "Hundred",
     image: hundred,
-    link: "https://www.ua.splot.institute/",
+    link: "https://hundred.org/en",
+  },
+  {
+    title: "Prosvitcenter",
+    image: prosvit,
+    link: "http://prosvitcenter.org/",
   },
   {
     title: "LLplatform",
     image: llplatform,
-    link: "https://www.ua.splot.institute/",
+    link: "https://lllplatform.eu/",
+  },
+  {
+    title: "zwolnienizteorii",
+    image: teor,
+    link: "https://zwolnienizteorii.pl/",
   },
 ];
 
