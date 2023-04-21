@@ -36,7 +36,7 @@
 .secondLine img {
   object-fit: cover;
   border-radius: 1rem;
-  height: 4.5vw;
+  height: 5vw;
   aspect-ratio: 2/1;
   width: auto;
   /*width: 9vw;*/
