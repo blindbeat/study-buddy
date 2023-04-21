@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Study&Buddy</title>
+        <title>StudyBuddy</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className={classNames(styles.main, poppins.className)}>
