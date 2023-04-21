@@ -1,0 +1,22 @@
+.team {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+}
+
+.member img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.member h4 {
+  margin-bottom: 1rem;
+}
