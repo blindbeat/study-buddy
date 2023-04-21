@@ -24,7 +24,7 @@ const Grants = () => {
             Project Moderator: <br />
             Keeping Your Team on Track
           </h3>
-          <a href={"https://www.ua.splot.institute/"}>Find out more</a>
+          <a href={"h "}>Find out more</a>
           <Image
             src={moderator}
             alt={"business woman"}

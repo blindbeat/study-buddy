@@ -1,5 +1,7 @@
 @import "normalize.css";
 
+@layer vendor {
+}
 :root {
   background: var(--light-color);
   color: var(--dark-color);
