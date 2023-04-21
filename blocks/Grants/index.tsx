@@ -24,7 +24,7 @@ const Grants = () => {
             Project Moderator: <br />
             Keeping Your Team on Track
           </h3>
-          <Button>Find out more</Button>
+          <a href={"https://www.ua.splot.institute/"}>Find out more</a>
           <Image
             src={moderator}
             alt={"business woman"}
@@ -36,7 +36,7 @@ const Grants = () => {
           <h3>
             Empowering Change: <br />A Grant Proposal
           </h3>
-          <Button>Find out more</Button>
+          <a href={"https://www.ua.splot.institute/"}>Find out more</a>
           <Image src={fundraising} alt={"papers"} className={styles.image} />
         </div>
       </div>

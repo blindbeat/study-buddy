@@ -69,7 +69,17 @@
   z-index: 1;
 }
 
-.previews button {
-  background-color: var(--accent);
+.previews a {
+  color: var(--accent);
+  padding: 1.25em 1.5em;
+  border-radius: 1em;
+  border-color: var(--accent);
+  border-width: 2px;
+  border-style: solid;
+  transition: all 0.3s;
+}
+
+.previews a:hover {
   color: var(--secondary);
+  background-color: var(--accent);
 }
