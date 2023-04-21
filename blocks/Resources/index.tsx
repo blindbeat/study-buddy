@@ -7,7 +7,7 @@ import hundred from "assets/images/websitePreviews/hundred.png";
 import prosvit from "assets/images/websitePreviews/prosvit.png";
 import llplatform from "assets/images/websitePreviews/llp.png";
 import teor from "assets/images/websitePreviews/teor.png";
-import { Navigation } from "swiper";
+import { Autoplay, Navigation } from "swiper";
 
 interface Slide {
   title: string;
@@ -68,9 +68,11 @@ const Resources = () => {
       </h2>
       <Swiper
         className={styles.swiper}
+        modules={[Autoplay]}
         slidesPerView={2.5}
         spaceBetween={48}
         loop={true}
+        autoplay={true}
       >
         {slides.map(({ title, image, link }, index) => (
           <SwiperSlide key={index}>
