@@ -59,7 +59,7 @@ const blockEntries: BlockTexts[] = [
 ];
 const Explanation = () => {
   return (
-    <div>
+    <div id={"explanation"}>
       <h2 className={styles.heading}>
         how does
         <span className={styles.secondLine}> it work?</span>

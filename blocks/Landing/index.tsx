@@ -3,6 +3,13 @@ import landingImage from "assets/images/landingImage.jpg";
 import Image from "next/image";
 import Button from "@/components/Button";
 const Landing = () => {
+  const clickHandler = () => {
+    const elem = document.getElementById("explanation");
+    if (elem === null) return;
+    elem.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
   return (
     <div className={styles.container}>
       <h1 className={styles.heading}>
@@ -27,7 +34,7 @@ const Landing = () => {
         We propose to implement in educational system after school activity -
         common projects for students and teachers to ruin a border between them.
       </p>
-      <Button>join the program</Button>
+      <Button onClick={clickHandler}>join the program</Button>
     </div>
   );
 };
