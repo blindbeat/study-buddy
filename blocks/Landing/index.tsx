@@ -20,17 +20,14 @@ const Landing = () => {
           <div className={styles.flag}>
             <div /> <div />
           </div>{" "}
-          Ukraine
+          <span className={styles.ukraineText}>Ukraine</span>
         </div>
       </h1>
-      <div className={styles.cta}>
-        <p>
-          We propose to implement in educational system after school activity -
-          common projects for students and teachers to ruin a border between
-          them.
-        </p>
-        <Button>join the program</Button>
-      </div>
+      <p>
+        We propose to implement in educational system after school activity -
+        common projects for students and teachers to ruin a border between them.
+      </p>
+      <Button>join the program</Button>
     </div>
   );
 };

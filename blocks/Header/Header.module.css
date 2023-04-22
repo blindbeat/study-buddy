@@ -9,3 +9,14 @@
   display: block;
   margin: auto;
 }
+
+@media (max-width: 64em) {
+  .header {
+    border: none;
+    margin-top: 2rem;
+    padding: 1.5rem 1.5rem 0;
+  }
+  .logo {
+    margin: initial;
+  }
+}
