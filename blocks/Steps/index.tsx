@@ -16,8 +16,7 @@ const Steps = () => {
     <div className={extraStyles.container}>
       <h2 className={extraStyles.heading}>
         Steps for
-        <br />
-        <span className={extraStyles.secondLine}>initiating</span>
+        <span className={extraStyles.secondLine}> initiating</span>
       </h2>
       <div>
         {blockEntries.map((text, index) => (

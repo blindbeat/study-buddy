@@ -12,3 +12,14 @@
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+@media (max-width: 64em) {
+  .block {
+    grid-template-columns: auto;
+    gap: 1rem;
+    padding: 1.5rem;
+  }
+  .block span {
+    display: initial;
+  }
+}

@@ -6,6 +6,11 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 6vw;
+  gap: 8vw;
+}
+
+.secondLine {
+  display: block;
 }
 
 .text p {
@@ -82,4 +87,31 @@
 .previews a:hover {
   color: var(--secondary);
   background-color: var(--accent);
+}
+
+@media (max-width: 64em) {
+  .container {
+    padding: 1.5rem;
+  }
+  .container h2 {
+    font-size: 2rem;
+  }
+  .text p {
+    display: none;
+  }
+
+  .previews {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 3rem;
+  }
+
+  .previews div {
+    aspect-ratio: 1/1.8;
+    gap: 1rem;
+  }
+
+  .previews h3 {
+    font-size: 1.5rem;
+  }
 }

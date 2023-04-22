@@ -62,8 +62,7 @@ const Explanation = () => {
     <div>
       <h2 className={styles.heading}>
         how does
-        <br />
-        <span className={styles.secondLine}>it work?</span>
+        <span className={styles.secondLine}> it work?</span>
       </h2>
       <div>
         {blockEntries.map(({ text, heading }, index) => (

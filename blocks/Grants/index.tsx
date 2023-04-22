@@ -7,10 +7,7 @@ const Grants = () => {
   return (
     <div className={styles.container}>
       <div className={styles.text}>
-        <h2>
-          careers
-          <br /> and grants
-        </h2>
+        <h2>careers and grants</h2>
         <p>
           We are waiting for open-minded, brave and aspiring people! Apply to
           participate as an educational institution where the project will be
