@@ -23,10 +23,7 @@ const Partners = () => {
   return (
     <div className={additionalStyles.container}>
       <div className={additionalStyles.text}>
-        <h2>
-          careers
-          <br /> and grants
-        </h2>
+        <h2>Official partners</h2>
       </div>
       <div className={styles.linkWrapper}>
         {partnersArr.map(({ img, link }, index) => (

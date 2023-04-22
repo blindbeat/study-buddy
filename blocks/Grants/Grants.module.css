@@ -91,7 +91,7 @@
 
 @media (max-width: 64em) {
   .container {
-    padding: 1.5rem;
+    padding: 10rem 1.5rem 0;
   }
   .container h2 {
     font-size: 2rem;
