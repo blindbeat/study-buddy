@@ -63,13 +63,17 @@ const Resources = () => {
     <div>
       <h2 className={additionalStyles.heading}>
         helpful
-        <br />
-        <span className={additionalStyles.secondLine}>resources</span>
+        <span className={additionalStyles.secondLine}> resources</span>
       </h2>
       <Swiper
         className={styles.swiper}
         modules={[Autoplay]}
-        slidesPerView={2.5}
+        slidesPerView={1.5}
+        breakpoints={{
+          1024: {
+            slidesPerView: 2.5,
+          },
+        }}
         spaceBetween={48}
         loop={true}
         autoplay={true}
