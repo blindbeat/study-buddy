@@ -51,7 +51,7 @@ const members: Member[] = [
 const Team = () => {
   return (
     <div className={outerStyles.container}>
-      <h2>
+      <h2 className={styles.heading}>
         the most
         <br />
         productive team
