@@ -2,6 +2,12 @@ import outerStyles from "@/blocks/Grants/Grants.module.css";
 import styles from "./Team.module.css";
 import Image, { StaticImageData } from "next/image";
 import teamImg from "assets/images/team/team.jpg";
+import mama from "assets/images/team/mama.jpg";
+import ys from "assets/images/team/ys.png";
+import ds from "assets/images/team/ds.png";
+import vp from "assets/images/team/vp.png";
+import ab from "assets/images/team/ab.png";
+import myDarling from "assets/images/team/my-darling.png";
 interface Member {
   name: string;
   country: "Poland" | "Ukraine";
@@ -14,37 +20,37 @@ const members: Member[] = [
     name: "Ela Łazarewicz-Wyrzykowska",
     country: "Poland",
     title: "PhD, Mentor",
-    image: teamImg,
+    image: mama,
   },
   {
     name: "Yulia Shevchuk",
     country: "Ukraine",
     title: "Project manager and copywriter",
-    image: teamImg,
+    image: ys,
   },
   {
     name: "Dasha Shcherbatiuk",
     country: "Ukraine",
     title: "Methodist",
-    image: teamImg,
+    image: ds,
   },
   {
     name: "Vitalina Petrova",
     country: "Ukraine",
     title: "Grant advisor",
-    image: teamImg,
+    image: vp,
   },
   {
     name: "Arsenii Boiko",
     country: "Ukraine",
     title: "Web-designer",
-    image: teamImg,
+    image: ab,
   },
   {
     name: "Maria Yaremenko",
     country: "Ukraine",
     title: "Frontend-developer",
-    image: teamImg,
+    image: myDarling,
   },
 ];
 
