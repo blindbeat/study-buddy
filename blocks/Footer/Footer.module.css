@@ -1,0 +1,31 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10vw;
+  padding: 5rem var(--margin-x) 2rem;
+  border-top: 1px solid var(--dark-color);
+}
+
+.footer h5 {
+  font-size: 1rem;
+}
+
+.footer div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.logo {
+  margin: initial;
+  display: block;
+}
+
+@media (max-width: 64em) {
+  .footer {
+    grid-template-columns: auto;
+    gap: 2.5rem;
+    padding: 5rem 1.5rem 2rem;
+    border-top: none;
+  }
+}
