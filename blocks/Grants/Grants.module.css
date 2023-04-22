@@ -107,7 +107,9 @@
   }
 
   .previews div {
-    aspect-ratio: 1/1.8;
+    width: 100%;
+    min-height: 500px;
+    aspect-ratio: auto;
     gap: 1rem;
   }
 
