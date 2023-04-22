@@ -21,12 +21,29 @@
   margin-bottom: 1.5rem;
 }
 
+.teamPhoto {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2/1;
+  border-radius: 1rem;
+  object-fit: cover;
+  grid-column: span 2;
+}
+
 .member h4 {
   margin-bottom: 1rem;
 }
 
 @media (max-width: 64em) {
   .team {
-    gap: 1.5rem;
+    gap: 3rem 1.5rem;
+  }
+
+  .member img {
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .member h4 {
+    margin-bottom: 0.5rem;
   }
 }

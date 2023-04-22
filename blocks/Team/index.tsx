@@ -64,6 +64,7 @@ const Team = () => {
             <p>{title}</p>
           </div>
         ))}
+        <Image src={teamImg} alt={"team"} className={styles.teamPhoto} />
       </div>
     </div>
   );
