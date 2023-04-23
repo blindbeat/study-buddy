@@ -31,7 +31,7 @@ const members: Member[] = [
   {
     name: "Dasha Shcherbatiuk",
     country: "Ukraine",
-    title: "Methodist",
+    title: "Process designer",
     image: ds,
   },
   {
