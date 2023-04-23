@@ -25,8 +25,6 @@ export default function Home() {
         <Header />
         <Landing />
         <Explanation />
-        <Steps />
-        <Grants />
         <Resources />
         <Partners />
         <Team />

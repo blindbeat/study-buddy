@@ -19,7 +19,7 @@ const blockEntries: BlockTexts[] = [
   {
     heading: (
       <>
-        <u>Moderator</u> recruitment
+        Recruit a <u>Moderator</u>
       </>
     ),
     text: "Recruitment is provided in two ways, for experts who are invited by organisers and for applicants who want to become a moderator.",
