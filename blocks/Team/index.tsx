@@ -73,9 +73,9 @@ const Team = () => {
     <div className={outerStyles.container}>
       <h2 className={styles.heading}>about us</h2>
       <p className={styles.paragraph}>
-        the team the team the team the team the team the team the team the team
-        the team the team the team the team the team the team the team the team
-        the team the team the team the team the team{" "}
+        We are seven Ukrainians who come from different parts of Ukraine. We met
+        through the Splot UA Resiedency, with a common idea: to make our
+        education system better.
       </p>
       <div className={styles.team}>
         {members.map(({ name, country, title, image }, index) => (
