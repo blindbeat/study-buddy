@@ -14,7 +14,7 @@ const Footer = () => {
         <p>
           We are introducing a new after-school activity - common projects
           developed together by groups of students and teachers - to help break
-          the communication and relationship barriers between them.
+          the barriers in communication and relationship between them.
         </p>
       </div>
       <div>
