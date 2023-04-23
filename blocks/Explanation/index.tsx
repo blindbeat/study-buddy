@@ -80,7 +80,7 @@ const Explanation = () => {
           "https://drive.google.com/file/d/1iE2ZBgoUAbXNfz4gEa2wcQR9epOQ0PSH/view?usp=sharing"
         }
       >
-        Detailed handbook
+        Download guidelines
       </a>
     </div>
   );

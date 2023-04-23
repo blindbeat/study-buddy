@@ -17,12 +17,6 @@ interface Member {
 
 const members: Member[] = [
   {
-    name: "Ela Łazarewicz-Wyrzykowska",
-    country: "Poland",
-    title: "PhD, Mentor",
-    image: mama,
-  },
-  {
     name: "Yulia Shevchuk",
     country: "Ukraine",
     title: "Project manager and copywriter",
@@ -52,16 +46,18 @@ const members: Member[] = [
     title: "Frontend-developer",
     image: myDarling,
   },
+  {
+    name: "Ela Łazarewicz-Wyrzykowska",
+    country: "Poland",
+    title: "PhD, Mentor",
+    image: mama,
+  },
 ];
 
 const Team = () => {
   return (
     <div className={outerStyles.container}>
-      <h2 className={styles.heading}>
-        the most
-        <br />
-        productive team
-      </h2>
+      <h2 className={styles.heading}>about us</h2>
       <div className={styles.team}>
         {members.map(({ name, country, title, image }, index) => (
           <div key={index} className={styles.member}>
