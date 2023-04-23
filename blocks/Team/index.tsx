@@ -5,6 +5,8 @@ import teamImg from "assets/images/team/team.jpg";
 import mama from "assets/images/team/mama.jpg";
 import ys from "assets/images/team/ys.png";
 import ds from "assets/images/team/ds.png";
+import ms from "assets/images/team/ms.png";
+import pl from "assets/images/team/pl.png";
 import vp from "assets/images/team/vp.png";
 import ab from "assets/images/team/ab.png";
 import myDarling from "assets/images/team/my-darling.png";
@@ -27,6 +29,18 @@ const members: Member[] = [
     country: "Ukraine",
     title: "Process designer",
     image: ds,
+  },
+  {
+    name: "Mykhailo Serhiichuk",
+    country: "Ukraine",
+    title: "PR (public relations) professional",
+    image: ms,
+  },
+  {
+    name: "Dasha Shcherbatiuk",
+    country: "Ukraine",
+    title: "Process designer",
+    image: pl,
   },
   {
     name: "Vitalina Petrova",
