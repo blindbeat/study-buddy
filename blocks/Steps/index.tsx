@@ -15,8 +15,8 @@ const Steps = () => {
   return (
     <div className={extraStyles.container}>
       <h2 className={extraStyles.heading}>
-        how to apply
-        <span className={extraStyles.secondLine}> for funding</span>
+        Recruit 
+        <span className={extraStyles.secondLine}> a moderator</span>
       </h2>
       <div>
         {blockEntries.map((text, index) => (
