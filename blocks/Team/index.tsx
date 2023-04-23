@@ -37,7 +37,7 @@ const members: Member[] = [
     image: ms,
   },
   {
-    name: "Dasha Shcherbatiuk",
+    name: "Pavlo Ladonko",
     country: "Ukraine",
     title: "Process designer",
     image: pl,
