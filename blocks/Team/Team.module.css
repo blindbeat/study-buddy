@@ -7,6 +7,10 @@
   margin: 2rem 0;
 }
 
+.paragraph a {
+  text-decoration: underline;
+}
+
 .team {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

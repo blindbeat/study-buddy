@@ -74,8 +74,8 @@ const Team = () => {
       <h2 className={styles.heading}>about us</h2>
       <p className={styles.paragraph}>
         We are seven Ukrainians who come from different parts of Ukraine. We met
-        through the Splot UA Resiedency, with a common idea: to make our
-        education system better.
+        through the <a href={"https://www.ua.splot.institute/"}>Splot UA</a>{" "}
+        Resiedency, with a common idea: to make our education system better.
       </p>
       <div className={styles.team}>
         {members.map(({ name, country, title, image }, index) => (
