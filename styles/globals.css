@@ -50,4 +50,31 @@ h2 {
 
 a {
   text-decoration: none;
+  color: var(--dark-color);
+}
+
+.link {
+  padding: 1.25em 1.5em;
+  border-radius: 1em;
+  display: block;
+  cursor: pointer;
+  width: max-content;
+  margin: 3rem auto 0;
+  border-color: var(--dark-color);
+  border-width: 2px;
+  border-style: solid;
+  transition: all 0.15s;
+  text-align: center;
+}
+
+.link:hover {
+  color: var(--light-color);
+  background-color: var(--dark-color);
+}
+
+@media (max-width: 64em) {
+  .link {
+    margin: 1.5rem;
+    width: initial;
+  }
 }

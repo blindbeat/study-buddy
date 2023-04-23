@@ -31,8 +31,9 @@ const Landing = () => {
         </div>
       </h1>
       <p>
-        We propose to implement in educational system after school activity -
-        common projects for students and teachers to ruin a border between them.
+        We are introducing a new after-school activity - common projects
+        developed together by groups of students and teachers - to help break
+        the communication and relationship barriers between them.
       </p>
       <Button onClick={clickHandler}>join the program</Button>
     </div>

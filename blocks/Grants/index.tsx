@@ -21,7 +21,13 @@ const Grants = () => {
             Project Moderator: <br />
             Keeping Your Team on Track
           </h3>
-          <a href={"h "}>Find out more</a>
+          <a
+            href={
+              "https://docs.google.com/document/d/10gKHhLxbSh4UWoJHVsE9lFVAfj2INOhV"
+            }
+          >
+            Find out more
+          </a>
           <Image
             src={moderator}
             alt={"business woman"}
@@ -33,7 +39,13 @@ const Grants = () => {
           <h3>
             Empowering Change: <br />A Grant Proposal
           </h3>
-          <a href={"https://www.ua.splot.institute/"}>Find out more</a>
+          <a
+            href={
+              "https://drive.google.com/file/d/1zDj0yETV3AMaEmPu5-rVF4USSUg9mXby/view?usp=share_link"
+            }
+          >
+            Find out more
+          </a>
           <Image src={fundraising} alt={"papers"} className={styles.image} />
         </div>
       </div>

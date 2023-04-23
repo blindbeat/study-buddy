@@ -1,5 +1,6 @@
 import styles from "./Explanation.module.css";
 import { ReactNode } from "react";
+import Button from "@/components/Button";
 
 interface BlockTexts {
   heading: ReactNode;
@@ -73,6 +74,14 @@ const Explanation = () => {
           </div>
         ))}
       </div>
+      <a
+        className={"link"}
+        href={
+          "https://docs.google.com/document/d/10gKHhLxbSh4UWoJHVsE9lFVAfj2INOhV"
+        }
+      >
+        Detailed handbook
+      </a>
     </div>
   );
 };
