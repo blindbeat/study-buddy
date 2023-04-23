@@ -25,9 +25,9 @@ export default function Home() {
         <Header />
         <Landing />
         <Explanation />
+        <Team />
         <Resources />
         <Partners />
-        <Team />
         <Footer />
       </main>
     </>

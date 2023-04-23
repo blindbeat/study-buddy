@@ -58,6 +58,11 @@ const Team = () => {
   return (
     <div className={outerStyles.container}>
       <h2 className={styles.heading}>about us</h2>
+      <p className={styles.paragraph}>
+        the team the team the team the team the team the team the team the team
+        the team the team the team the team the team the team the team the team
+        the team the team the team the team the team{" "}
+      </p>
       <div className={styles.team}>
         {members.map(({ name, country, title, image }, index) => (
           <div key={index} className={styles.member}>
