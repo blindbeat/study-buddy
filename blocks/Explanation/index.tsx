@@ -77,7 +77,7 @@ const Explanation = () => {
       <a
         className={"link"}
         href={
-          "https://docs.google.com/document/d/10gKHhLxbSh4UWoJHVsE9lFVAfj2INOhV"
+          "https://drive.google.com/file/d/1iE2ZBgoUAbXNfz4gEa2wcQR9epOQ0PSH/view?usp=sharing"
         }
       >
         Detailed handbook
